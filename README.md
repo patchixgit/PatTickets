@@ -10,6 +10,8 @@
 This project exists to give people a solid, open-source Discord ticket bot without paywalls, locked features, or subscriptions.  
 Clone it, host it, change it; it’s yours.
 
+Meant for single-use server (no multiple guilds)
+
 No paid tiers.  
 No feature locks.  
 Just open access.
