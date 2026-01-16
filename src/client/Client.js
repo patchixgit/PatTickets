@@ -44,11 +44,11 @@ class PatTickets extends Discord.Client {
 
     let currentPos = 0;
     let totalPositions = eventFiles.length;
-    let posMarker = `[${++currentPos}/${totalPositions}]`;
 
     for (const f of eventFiles) {
       const fPath = path.join(p, f);
       const evExports = require(fPath);
+      let posMarker = `[${++currentPos}/${totalPositions}]`;
 
       if (!("name" in evExports && "execute" in evExports)) {
         console.log(
